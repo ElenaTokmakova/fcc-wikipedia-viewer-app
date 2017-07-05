@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElenaTokmakova/fcc-wikipedia-viewer.git"
+    "url": "git+https://github.com/ElenaTokmakova/fcc-wikipedia-viewer-app.git"
   },
   "keywords": [
     "free code camp",
@@ -17,9 +17,9 @@
   "author": "Elena Tokmakova",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ElenaTokmakova/fcc-wikipedia-viewer/issues"
+    "url": "https://github.com/ElenaTokmakova/fcc-wikipedia-viewer-app/issues"
   },
-  "homepage": "https://github.com/ElenaTokmakova/fcc-wikipedia-viewer",
+  "homepage": "https://github.com/ElenaTokmakova/fcc-wikipedia-viewer-app",
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "browser-sync": "^2.18.12",
