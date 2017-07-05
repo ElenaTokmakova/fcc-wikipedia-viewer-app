@@ -1,0 +1,37 @@
+{
+  "name": "wikipedia-viewer",
+  "version": "1.0.0",
+  "description": "Elena Tokmakova Wikipedia Viewer",
+  "main": "custom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElenaTokmakova/fcc-wikipedia-viewer.git"
+  },
+  "keywords": [
+    "free code camp",
+    "wikipedia viewer"
+  ],
+  "author": "Elena Tokmakova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElenaTokmakova/fcc-wikipedia-viewer/issues"
+  },
+  "homepage": "https://github.com/ElenaTokmakova/fcc-wikipedia-viewer",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-jsvalidate": "^3.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "normalize.css": "^7.0.0",
+    "postcss-nested": "^2.0.2"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {}
+}

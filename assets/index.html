@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Wikipedia Viewer</title>
+        <meta name="description" content="Wikipedia Viewer">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,700" rel="stylesheet">
+        <link rel="stylesheet" href="styles/custom.css">        
+    </head>
+    <body>  
+            <h1 id="main-title">Wikipedia Viewer</h1>             
+           
+            <div class="content-container">
+
+              
+            <div class="form-container">
+            
+                <form id="form-container">
+                    <div id="random-article" ><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a></div>
+                    <hr><br>     
+                    <div id="request-article">Or enter your request</div>               
+                    <label for="request"></label>
+                    <input type="text" id="request" value="">                
+                    <button id="submit-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <div id="error-message"></div>
+                    <ul id="wikipedia-articles"></ul>
+                </form>
+
+            </div>  
+
+            <div class="wikipedia-footer">                    
+                <ul>
+                    <li><a class="button personal-website" href="http://elenatokmakova.com" target="-blank"><i class="fa fa-fw fa-globe"></i></a></li>
+                    <li><a class="button linkedin" href="https://www.linkedin.com/in/elena-tokmakova" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                    <li><a class="button github" href="https://github.com/ElenaTokmakova" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
+                    <li><a class="button facebook" href="https://www.facebook.com/ElenaTokmakova101" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>
+                    <li><a class="button codepen" href="https://codepen.io/ElenaTokmakova" target="_blank"><i class="fa fa-codepen"></i></a></li>
+                    <li><a class="button freecodecamp" href="https://www.freecodecamp.com/elenatokmakova" target="_blank" title="My Free Code Camp"><i class="fa fa-free-code-camp"></i></a></li>
+                </ul>                 
+            </div>
+
+
+            </div>            
+            
+            
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+            <script src="scripts/custom.js"> </script>     
+    </body>
