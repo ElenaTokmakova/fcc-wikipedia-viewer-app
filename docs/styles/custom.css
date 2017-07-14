@@ -10,36 +10,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight:400;
   background: url(../img/wikipedia-logo.png) no-repeat center center fixed; 
-  background-size: cover;  
+  background-size: cover;
 }
 
 body h1 {   
     margin: 50px auto;
+    padding: 30px;
     text-align: center;
   }
-
-body h2 {   
-    text-align: center;
-    margin: 30px auto;
-  }
-
-.content-container,
-.wikipedia-footer,
-h1, h2, h3 {
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-orient:horizontal;
-  -webkit-box-direction:normal;
-      -ms-flex-flow:row wrap;
-          flex-flow:row wrap;
-  -ms-flex-pack:distribute;
-      justify-content:space-around;
-  -webkit-box-align:center;
-      -ms-flex-align:center;
-          align-items:center;
-  margin:0 auto; 
-}
 
 #main-title {
   color: #dd5638;
@@ -55,9 +33,10 @@ h1, h2, h3 {
 .content-container {  
   width: 90%;
   max-width: 1000px;
-  background-color: #e5f0db;
-  text-align: center;
+  margin: 0 auto;
   padding: 20px;
+  background-color: #e5f0db;
+  text-align: center;  
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 1px 1px #ccc;
           box-shadow: 2px 2px 1px 1px #ccc;
@@ -97,7 +76,7 @@ h1, h2, h3 {
     border: 3px solid #dd5638;      
   }
 
-.content-container ul li {
+.content-container ul#wikipedia-articles li {
     background: #fff;
     text-align:center;
     list-style: none;
@@ -110,17 +89,17 @@ h1, h2, h3 {
     transition: all 0.2s ease-out;    
     }
 
-.content-container ul li:hover {
+.content-container ul#wikipedia-articles li:hover {
       -webkit-transform: scale(1.02);
               transform: scale(1.02);
     }
 
-.content-container ul li a {
+.content-container ul#wikipedia-articles li a {
       color: #dd5638;
       text-decoration: none;
       }
 
-.content-container ul li a p {      
+.content-container ul#wikipedia-articles li a p {      
         color: #000;
         text-align: justify;
         padding-top: 10px;
@@ -144,48 +123,26 @@ h1, h2, h3 {
     }
 
 .content-container .wikipedia-footer {
-  width: 90%;  
+  max-width: 90%;  
   color:#fff;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin: 100px auto 30px;
   }
 
-.content-container .wikipedia-footer p a {
-      text-decoration: none;
-      color: #72bcd4;
+.content-container .wikipedia-footer ul#contact-list {  
+    list-style: none;
     }
 
-.content-container .wikipedia-footer p a:hover {
-        color: #add8e6;
+.content-container .wikipedia-footer ul#contact-list li {      
+      margin: 10px 5px; 
+      display: inline-block;
       }
 
-.content-container .wikipedia-footer p a:visited {
-        color: #72bcd4;
-      }
-
-.content-container .wikipedia-footer ul {
-    text-align: center;
-    list-style: none; 
-    width: 100%;  
-    margin-bottom: 25px;
-    }
-
-.content-container .wikipedia-footer ul li {
-      background: none;
-      -webkit-box-shadow: none;
-              box-shadow: none;      
-      padding: 0;   
-      margin: 0 5px; 
-      display: inline;
-      }
-
-.content-container .wikipedia-footer ul li a {
-        margin-bottom: 10px;  
-        font-weight:500;
+.content-container .wikipedia-footer ul#contact-list li a {
+        margin-bottom: 10px;          
         text-decoration:none;          
         }
 
-.content-container .wikipedia-footer ul li a.button {
+.content-container .wikipedia-footer ul#contact-list li a.button {
         color: #dd5638; 
         border:solid 2px #dd5638; 
         border-radius:50%;
@@ -199,34 +156,34 @@ h1, h2, h3 {
         transition:all .3s ease-in-out;
           }
 
-.content-container .wikipedia-footer ul li a.button:hover {
+.content-container .wikipedia-footer ul#contact-list li a.button:hover {
               -webkit-transform: scale(1.3);
                       transform: scale(1.3);
               color: #fff;
               border:solid 2px #fff; 
             }
 
-.content-container .wikipedia-footer ul li a.button.linkedin:hover {
+.content-container .wikipedia-footer ul#contact-list li a.button.linkedin:hover {
               background: #007bb6;                  
             }
 
-.content-container .wikipedia-footer ul li a.button.personal-website:hover {
+.content-container .wikipedia-footer ul#contact-list li a.button.personal-website:hover {
               background: #79b044;
             }
 
-.content-container .wikipedia-footer ul li a.button.facebook:hover {
+.content-container .wikipedia-footer ul#contact-list li a.button.facebook:hover {
               background: #3b5998;
             }
 
-.content-container .wikipedia-footer ul li a.button.github:hover {
+.content-container .wikipedia-footer ul#contact-list li a.button.github:hover {
               background: #24292e;;
             }
 
-.content-container .wikipedia-footer ul li a.button.freecodecamp:hover {
+.content-container .wikipedia-footer ul#contact-list li a.button.freecodecamp:hover {
               background: #006400;
             }
 
-.content-container .wikipedia-footer ul li a.button.codepen:hover {
+.content-container .wikipedia-footer ul#contact-list li a.button.codepen:hover {
               background: #722872;
             }
 

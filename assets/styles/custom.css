@@ -12,23 +12,9 @@ body {
   background-size: cover;
   h1 {   
     margin: 50px auto;
+    padding: 30px;
     text-align: center;
   }
-
-  h2 {   
-    text-align: center;
-    margin: 30px auto;
-  }  
-}
-
-.content-container,
-.wikipedia-footer,
-h1, h2, h3 {
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:space-around;
-  align-items:center;
-  margin:0 auto; 
 }
 
 #main-title {
@@ -44,9 +30,10 @@ h1, h2, h3 {
 .content-container {  
   width: 90%;
   max-width: 1000px;
-  background-color: #e5f0db;
-  text-align: center;
+  margin: 0 auto;
   padding: 20px;
+  background-color: #e5f0db;
+  text-align: center;  
   border-radius: 5px;
   box-shadow: 2px 2px 1px 1px #ccc;
   & #random-article {
@@ -76,7 +63,7 @@ h1, h2, h3 {
     padding: 10px; 
     border: 3px solid #dd5638;      
   }
-  & ul {
+  & ul#wikipedia-articles {
     & li {
     background: #fff;
     text-align:center;
@@ -114,36 +101,16 @@ h1, h2, h3 {
     } 
   }
   & .wikipedia-footer {
-  width: 90%;  
+  max-width: 90%;  
   color:#fff;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  & p {
-    & a {
-      text-decoration: none;
-      color: #72bcd4;
-      &:hover {
-        color: #add8e6;
-      }
-      &:visited {
-        color: #72bcd4;
-      }
-    }
-  }
-  & ul {
-    text-align: center;
-    list-style: none; 
-    width: 100%;  
-    margin-bottom: 25px; 
-    & li {
-      background: none;
-      box-shadow: none;      
-      padding: 0;   
-      margin: 0 5px; 
-      display: inline;            
+  margin: 100px auto 30px;
+  & ul#contact-list {  
+    list-style: none;
+    & li {      
+      margin: 10px 5px; 
+      display: inline-block;            
         & a {
-        margin-bottom: 10px;  
-        font-weight:500;
+        margin-bottom: 10px;          
         text-decoration:none;       
         &.button {
         color: #dd5638; 
